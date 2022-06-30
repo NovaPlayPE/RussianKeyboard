@@ -1,0 +1,57 @@
+<resources>
+    <string name="app_name">Russian Keyboards</string>
+    <string name="ime_name">Russian Keyboards</string>
+
+
+
+    <string name="settings_name">Russian Keyboards настройки</string>
+    <string name="language_selection_title">Настройки ввода</string>
+    <string name="select_language">Выберите язык ввода</string>
+    <string name="general_category">Общее</string>
+
+    <string name="sound">Звуки при нажатии</string>
+    <string name="show_suggestions">Показывать предложения</string>
+
+    <string name="word_separators">\u0020.,;:!?\n()[]*&amp;@{}/&lt;&gt;_+=|&quot;</string>
+
+    <string name="label_go_key">Вперёд</string>
+    <string name="label_next_key">Следующий</string>
+    <string name="label_send_key">Отправить</string>
+
+    <string name="label_subtype_generic">%s</string>
+    <string name="label_subtype_en_US">English (US)</string>
+    <string name="ru_latin_label">Russian Latin</string>
+    <string name="ru_phonetic_label">Russian Phonetic</string>
+
+    <string name="database_name">database.sqlite</string>
+    <string name="database_version">1</string>
+    <string name="en_table_name">en_table</string>
+    <string name="ru_table_name">ru_table</string>
+    <string name="ru_ar_table_name">ru_ar_table</string>
+    <string name="tat_table_name">tat_table</string>
+    <string name="bash_table_name">bash_table</string>
+    <string name="chuv_table_name">chuv_table</string>
+    <string name="chech_table_name">chech_table</string>
+    <string name="arm_table_name">arm_table</string>
+    <string name="ua_table_name">ua_table</string>
+    <string name="freq_column">freq</string>
+    <string name="word_column">word</string>
+
+    <string name="enable_in_settings">ВКЛЮЧИТЬ</string>
+    <string name="add_languages">ЯЗЫКИ</string>
+    <string name="choose_input_method">ВВОД</string>
+    <string name="choose_theme">МОТИВЫ</string>
+    <string name="dictionaries">Словарные запасы</string>
+    <string name="manage_dictionaries">Управлять словарными запасами</string>
+    <string name="search_word">Найти слово</string>
+    <string name="search">Найти</string>
+    <string name="about">О программе</string>
+    <string name="choose_theme_title">Мотивы раскладки</string>
+    <string name="test_the_keyboard_here">Испытать клавиатуру здесь</string>
+    <string name="search_description">Найти слово и удлить его из Т9.</string>
+    <string name="search_hint_toast">Введите слово, чтобы его найти!</string>
+    <string name="no_result">Этого слова нет в словарном запасе!</string>
+    <string name="removed_word">Слово было удалено из словарного запаса!</string>
+    <string name="about_info"><![CDATA[В России и странах СНГ проживает много народов, у которых есть свои письменности.\n\nЭто приложение было создано для того, чтобы не переключаться между разными клавиатурами, чтобы написать свои слова.\n\nЭто приложение также имеет цель поддержать те языки, которые находятся под угрозой исчезновения\n\nПриложение находится в бета версии.]]></string>
+
+</resources>
