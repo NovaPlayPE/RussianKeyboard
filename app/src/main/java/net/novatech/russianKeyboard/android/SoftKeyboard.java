@@ -34,6 +34,9 @@ import static net.novatech.russianKeyboard.window.ThemesWindow.THEME_KEY;
 
 public class SoftKeyboard extends InputMethodService implements KeyboardView.OnKeyboardActionListener {
 
+    /**
+     * TECHNICAL THINGS
+     */
 
     static final boolean PROCESS_HARD_KEYS = true;
     private InputMethodManager mInputMethodManager;
@@ -52,11 +55,19 @@ public class SoftKeyboard extends InputMethodService implements KeyboardView.OnK
     private String mWordSeparators;
 
     // Keyboards (not subtypes)
+    /**
+     * GLOBAL KEYBOARDS
+     */
     private LatinKeyboard englishKeyboard;
     private LatinKeyboard numbersKeyboard;
     private LatinKeyboard symbolsKeyboard;
     private LatinKeyboard symbolsShiftedKeyboard;
     private LatinKeyboard numericKeyboard;
+    /**
+     * RUSSIAN KEYBOARDS
+     */
+    private LatinKeyboard russianKeyboard;
+    private LatinKeyboard russianArabicKeyboard;
 
     private LatinKeyboard mCurKeyboard;
     public static String mActiveKeyboard;
@@ -91,6 +102,9 @@ public class SoftKeyboard extends InputMethodService implements KeyboardView.OnK
         symbolsShiftedKeyboard = new LatinKeyboard(this, R.xml.symbols_shifted);
         numbersKeyboard = new LatinKeyboard(this, R.xml.numbers);
         numericKeyboard = new LatinKeyboard(this, R.xml.numeric);
+
+        russianKeyboard = new LatinKeyboard(this, R.xml.keys_ru);
+        russianArabicKeyboard = new LatinKeyboard(this, R.xml.keys_ru_ar);
 
     }
 
