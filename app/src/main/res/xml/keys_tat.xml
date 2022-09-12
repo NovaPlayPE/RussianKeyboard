@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Keyboard xmlns:android="http://schemas.android.com/apk/res/android"
+    android:horizontalGap="5px"
+    android:keyHeight="60dp"
+    android:verticalGap="0px"
+    android:keyWidth="8pt">
+
+    <Row>
+        <Key
+            android:keyEdgeFlags="left"
+            android:keyLabel="й"
+            android:popupCharacters="1"
+            android:popupKeyboard="@xml/popup_keyboard" />
+        <Key
+            android:keyLabel="ө"
+            android:popupCharacters="2"
+            android:popupKeyboard="@xml/popup_keyboard" />
+        <Key
+            android:keyLabel="у"
+            android:popupCharacters="3"
+            android:popupKeyboard="@xml/popup_keyboard" />
+        <Key
+            android:keyLabel="к"
+            android:popupCharacters="4"
+            android:popupKeyboard="@xml/popup_keyboard" />
+        <Key
+            android:keyLabel="е"
+            android:popupCharacters="5"
+            android:popupKeyboard="@xml/popup_keyboard" />
+        <Key
+            android:keyLabel="н"
+            android:popupCharacters="6"
+            android:popupKeyboard="@xml/popup_keyboard" />
+        <Key
+            android:keyLabel="г"
+            android:popupCharacters="7"
+            android:popupKeyboard="@xml/popup_keyboard" />
+        <Key
+            android:keyLabel="ш"
+            android:popupCharacters="8"
+            android:popupKeyboard="@xml/popup_keyboard" />
+        <Key
+            android:keyLabel="ә"
+            android:popupCharacters="9"
+            android:popupKeyboard="@xml/popup_keyboard" />
+        <Key
+            android:keyLabel="з"
+            android:popupCharacters="0"
+            android:popupKeyboard="@xml/popup_keyboard" />
+        <Key
+            android:keyLabel="х"
+            android:popupKeyboard="@xml/popup_keyboard" />
+        <Key
+            android:keyEdgeFlags="right"
+            android:keyLabel="ү"
+            android:popupKeyboard="@xml/popup_keyboard" />
+    </Row>
+
+    <Row>
+        <Key
+            android:horizontalGap="4%p"
+            android:keyEdgeFlags="left"
+            android:keyLabel="ф"
+            android:popupKeyboard="@xml/popup_keyboard" />
+        <Key
+            android:keyLabel="ы"  />
+        <Key android:keyLabel="в" />
+        <Key android:keyLabel="а" />
+        <Key android:keyLabel="п" />
+        <Key android:keyLabel="р" />
+        <Key android:keyLabel="о" />
+        <Key android:keyLabel="л" />
+        <Key android:keyLabel="д" />
+        <Key android:keyLabel="ң" />
+        <Key
+            android:keyEdgeFlags="right"
+            android:keyLabel="э" />
+    </Row>
+
+    <Row>
+        <Key
+            android:codes="-1"
+            android:isModifier="true"
+            android:isSticky="true"
+            android:keyEdgeFlags="left"
+            android:keyIcon="@drawable/ic_keyboard_capslock_24dp"
+            android:keyWidth="15%p" />
+        <Key android:keyLabel="ґ" />
+        <Key android:keyLabel="я" />
+        <Key android:keyLabel="ч" />
+        <Key android:keyLabel="с" />
+        <Key android:keyLabel="м" />
+        <Key
+            android:keyLabel="и"
+            android:popupCharacters="i"
+            android:popupKeyboard="@xml/popup_keyboard" />
+        <Key android:keyLabel="т" />
+        <Key android:keyLabel="җ" />
+        <Key android:keyLabel="б" />
+        <Key android:keyLabel="ю" />
+        <Key
+            android:codes="-5"
+            android:isRepeatable="true"
+            android:keyEdgeFlags="right"
+            android:keyIcon="@drawable/ic_backspace_24dp"
+            android:keyWidth="15%p" />
+    </Row>
+
+    <Row android:rowEdgeFlags="bottom">
+        <Key
+            android:codes="-2"
+            android:keyEdgeFlags="left"
+            android:keyLabel="\?123"
+            android:keyWidth="15%p" />
+        <Key
+            android:codes="-10000"
+            android:keyIcon="@drawable/ic_insert_emoticon_white_24dp" />
+        <Key
+            android:codes="-101"
+            android:keyIcon="@drawable/ic_language_24dp" />
+        <Key
+            android:codes="32"
+            android:isRepeatable="true"
+            android:keyIcon="@drawable/ic_space_bar_white_24dp"
+            android:keyWidth="35%p" />
+        <Key
+            android:keyLabel="."
+            android:keyWidth="15%p"
+            android:popupKeyboard="@xml/popup_symbols" />
+        <Key
+            android:codes="10"
+            android:keyEdgeFlags="right"
+            android:keyIcon="@drawable/ic_next_circle_filled_45dp"
+            android:keyWidth="15%p" />
+    </Row>
+
+</Keyboard>

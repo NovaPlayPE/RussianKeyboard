@@ -20,7 +20,7 @@
 
     <string name="label_subtype_generic">%s</string>
     <string name="label_subtype_en_US">English (US)</string>
-    <string name="ru_latin_label">Russian Latin</string>
+    <string name="ru_cyrillic_label">Russian Cyrillic</string>
     <string name="ru_phonetic_label">Russian Phonetic</string>
 
     <string name="database_name">database.sqlite</string>
@@ -34,6 +34,9 @@
     <string name="chech_table_name">chech_table</string>
     <string name="arm_table_name">arm_table</string>
     <string name="ua_table_name">ua_table</string>
+    <string name="bya_table_name">bya_table</string>
+
+
     <string name="freq_column">freq</string>
     <string name="word_column">word</string>
 
@@ -52,6 +55,6 @@
     <string name="search_hint_toast">Введите слово, чтобы его найти!</string>
     <string name="no_result">Этого слова нет в словарном запасе!</string>
     <string name="removed_word">Слово было удалено из словарного запаса!</string>
-    <string name="about_info"><![CDATA[В России и странах СНГ проживает много народов, у которых есть свои письменности.\n\nЭто приложение было создано для того, чтобы не переключаться между разными клавиатурами, чтобы написать свои слова.\n\nЭто приложение также имеет цель поддержать те языки, которые находятся под угрозой исчезновения\n\nПриложение находится в бета версии.]]></string>
+    <string name="about_info"><![CDATA[В России и странах СНГ проживает много народов, у которых есть свои письменности.\n\nЭто приложение было создано для того, чтобы не переключаться между разными клавиатурами, чтобы написать свои слова.\nТакже, в этом приложении будут те письменности, которые сегодня уже неофициальны, но использовались в прошлом.\n\nЭто приложение также имеет цель поддержать те языки, которые находятся под угрозой исчезновения\n\nПриложение находится в бета версии.]]></string>
 
 </resources>

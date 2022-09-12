@@ -71,6 +71,18 @@ public class SoftKeyboard extends InputMethodService implements KeyboardView.OnK
 
     private LatinKeyboard mCurKeyboard;
     public static String mActiveKeyboard;
+    public static KeyboardLanguage ACTIVE_KEYBOARD;
+
+    public enum KeyboardLanguage{
+        ENGLISH,
+        RUSSIAN,
+        UKRAINIAN,
+        BELORUSSIAN,
+        RUSSIAN_ARABIC,
+        TATAR,
+        BASHKIR,
+        CHECHEN;
+    }
 
     private DatabaseManager db;
     private ArrayList<String> list;
