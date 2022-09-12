@@ -58,7 +58,7 @@ class LatinKeyboard extends Keyboard {
         }
     }
 
-    void setImeOptions(Resources res, int options) {
+    public void setImeOptions(Resources res, int options) {
         if (mEnterKey == null) {
             return;
         }

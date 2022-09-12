@@ -197,7 +197,7 @@ public class Keyboard {
                 mEnterKey.label = res.getText(R.string.label_next_key);
                 break;
             case EditorInfo.IME_ACTION_SEARCH:
-                mEnterKey.icon = res.getDrawable(R.drawable.ic_baseline_search_24);
+                mEnterKey.icon =null;
                 mEnterKey.label = null;
                 break;
             case EditorInfo.IME_ACTION_SEND:
@@ -206,7 +206,7 @@ public class Keyboard {
                 mEnterKey.label = res.getText(R.string.label_send_key);
                 break;
             default:
-                mEnterKey.icon = res.getDrawable(R.drawable.ic_baseline_check_24);
+                mEnterKey.icon = null;
                 mEnterKey.label = null;
                 break;
         }

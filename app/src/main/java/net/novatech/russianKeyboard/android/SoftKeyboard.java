@@ -3,8 +3,8 @@ package net.novatech.russianKeyboard.android;
 import android.app.Dialog;
 import android.content.SharedPreferences;
 import android.inputmethodservice.InputMethodService;
-import android.inputmethodservice.Keyboard;
-import android.inputmethodservice.KeyboardView;
+import net.novatech.russianKeyboard.inputMethod.Keyboard;
+import net.novatech.russianKeyboard.inputMethod.KeyboardView;
 import android.media.AudioManager;
 import android.os.AsyncTask;
 import android.os.IBinder;
@@ -68,6 +68,14 @@ public class SoftKeyboard extends InputMethodService implements KeyboardView.OnK
      */
     private LatinKeyboard russianKeyboard;
     private LatinKeyboard russianArabicKeyboard;
+    /**
+     * UKRAINIAN
+     */
+    private LatinKeyboard ukrainianKeyboard;
+    /**
+     * BELORUSSIAN
+     */
+    private LatinKeyboard belorussianKeyboard;
 
     private LatinKeyboard mCurKeyboard;
     public static String mActiveKeyboard;
@@ -117,6 +125,8 @@ public class SoftKeyboard extends InputMethodService implements KeyboardView.OnK
 
         russianKeyboard = new LatinKeyboard(this, R.xml.keys_ru);
         russianArabicKeyboard = new LatinKeyboard(this, R.xml.keys_ru_ar);
+        ukrainianKeyboard = new LatinKeyboard(this, R.xml.keys_ua);
+        belorussianKeyboard = new LatinKeyboard(this, R.xml.keys_bya);
 
     }
 

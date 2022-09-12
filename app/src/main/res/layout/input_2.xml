@@ -24,7 +24,7 @@
 -->
 
 
-<com.sunzala.afghankeyboard.android.LatinKeyboardView xmlns:android="http://schemas.android.com/apk/res/android"
+<net.novatech.russianKeyboard.android.LatinKeyboardView xmlns:android="http://schemas.android.com/apk/res/android"
     android:id="@+id/keyboard"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
