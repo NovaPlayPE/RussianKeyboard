@@ -1,5 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/gebab/Desktop/WallServer/JavaSesiousProjects/RussianKeyboard/app/src/main/res/layout/keyboard.xml" value="0.22395833333333334" />
+        <entry key="..\:/Users/gebab/Desktop/WallServer/JavaSesiousProjects/RussianKeyboard/app/src/main/res/xml/attr.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/gebab/Desktop/WallServer/JavaSesiousProjects/RussianKeyboard/app/src/main/res/xml/config.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/gebab/Desktop/WallServer/JavaSesiousProjects/RussianKeyboard/app/src/main/res/xml/ids.xml" value="0.19444444444444445" />
+        <entry key="..\:/Users/gebab/Desktop/WallServer/JavaSesiousProjects/RussianKeyboard/app/src/main/res/xml/ime_preferences.xml" value="0.22826086956521738" />
+      </map>
+    </option>
+  </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="1.8" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>

@@ -1,14 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.inputmethodservice.KeyboardView xmlns:android="http://schemas.android.com/apk/res/android"
+<net.novatech.russianKeyboard.inputMethod.KeyboardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:paddingTop="2dp"
+    android:paddingBottom="2dp"
     android:id="@+id/keyboard"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:layout_alignParentBottom="true"
-    android:keyPreviewHeight="25dp"
-    android:keyTextSize="25dp"
-    android:keyPreviewLayout="@layout/preview"
-    android:background="@color/colorPrimary"
-    android:keyTextColor="@color/colorPrimaryDark"
-    android:keyBackground="@color/colorPrimary"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_1"
+    app:keyBackground="@color/colorPrimary"
+    app:keyPreviewHeight="50dp"
+    app:keyPreviewLayout="@layout/preview"
+    app:keyTextColor="@color/white"
+    app:keyTextSize="18sp"
+    app:labelTextSize="18sp"
 
-/>
+    />

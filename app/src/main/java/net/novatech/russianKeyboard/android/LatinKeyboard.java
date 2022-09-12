@@ -4,7 +4,7 @@ import android.content.Context;
 import android.content.res.Resources;
 import android.content.res.XmlResourceParser;
 import android.graphics.drawable.Drawable;
-import android.inputmethodservice.Keyboard;
+import net.novatech.russianKeyboard.inputMethod.Keyboard;
 import android.view.inputmethod.EditorInfo;
 
 import net.novatech.russianKeyboard.R;
