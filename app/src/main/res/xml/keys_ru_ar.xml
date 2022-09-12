@@ -32,20 +32,23 @@
             android:popupCharacters="6"
             android:popupKeyboard="@xml/popup_keyboard" />
         <Key
-            android:keyLabel="ںٛ"
+            android:keyLabel="ن"
             android:popupCharacters="7"
             android:popupKeyboard="@xml/popup_keyboard" />
         <Key
-            android:keyLabel="غ"
+            android:keyLabel="ںٛ"
             android:popupCharacters="8"
             android:popupKeyboard="@xml/popup_keyboard" />
         <Key
-            android:keyLabel="ش"
+            android:keyLabel="غ"
             android:popupCharacters="9"
             android:popupKeyboard="@xml/popup_keyboard" />
         <Key
-            android:keyLabel="ز"
+            android:keyLabel="ش"
             android:popupCharacters="0"
+            android:popupKeyboard="@xml/popup_keyboard" />
+        <Key
+            android:keyLabel="ز"
             android:popupKeyboard="@xml/popup_keyboard" />
         <Key
             android:keyLabel="ح"
